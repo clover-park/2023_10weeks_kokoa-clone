@@ -42,9 +42,11 @@
   margin-bottom: 25px;
 }
 .message-row {
+  width: 240px;
   margin-top: 10px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 25px;
 }
 .message-row img {
@@ -63,6 +65,15 @@
   align-items: flex-end;
 }
 .message-bubble {
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+.message-bubble--lg {
+  width: 200px;
+  display: flex;
   background-color: white;
   padding: 10px;
   border-radius: 15px;
