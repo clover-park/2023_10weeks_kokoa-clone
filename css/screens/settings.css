@@ -1,0 +1,15 @@
+.main-screen--settings {
+  padding:0px var(--horizontal-space);
+  padding-top: 90px;
+}
+.settings-setting {
+  padding: 20px 0px;
+  border-bottom: var(--gray);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.settings-setting i {
+  margin-right: 20px;
+}

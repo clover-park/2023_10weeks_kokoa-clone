@@ -1,0 +1,57 @@
+/*이 파일은 모든 스크린에 적용할 수 있는 스타일을 써놓는다.*/
+@import "reset.css";
+@import "variables.css";
+/*components*/
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/status-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+/*screens*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat-room.css";
+
+@font-face {
+  font-family: "friends";
+  src: url("./GABRWFFR.ttf");
+}
+body {
+  font-family: "friends";
+}
+a {
+  text-decoration: none;
+  color:inherit;
+}
+@keyframes hideSplash {
+  from{
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background-color: var(--medium-purple);
+  position: absolute;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplash 2s ease-in-out forwards;
+}
+
+#splash-screen img {
+  width: 70vw;
+  height: 33vh;
+}

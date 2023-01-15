@@ -1,0 +1,19 @@
+.icon-row,
+.icon-second-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.icon-second-row {
+  padding-top: 20px;
+  border-bottom: 1px solid var(--gray);
+}
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-row__icon i {
+  margin-bottom: 20px;
+}

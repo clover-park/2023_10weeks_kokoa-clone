@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>110%</span>
+      <i class="fas fa-battery-half fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  <header class="screen-header">
+    <h1 class="screen-header__title">Friends</h1>
+    <div class="screen-header__icons">
+      <span><i class="fa-sharp fa-solid fa-magnifying-glass fa-lg"></i></span>
+      <span>
+        <a href="settings.html">
+          <i class="fa-solid fa-gear fa-lg"></i></a>
+      </span>
+      <div class="badge--sm setting"></div>
+    </div>
+  </header>
+
+  <main class="main-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img class="user-component__avatar--xl"
+        src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\chandler-icecream.jpg" class="user-component__avatar">
+        <div class="user-component__text">
+          <h4 class="user-component__title">Clover</h4>
+          <h6 class="user-component__subtitle"></h6>
+        </div>
+      </div>
+      <div class="user-component__music">
+        <span>I'll Be There For You</span>
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </div>
+
+    <div class="friends-screen__updated">
+      <div class="friends-screen__updated-header">
+        <span>Recently Updated 3</span> 
+      </div>
+      <div class="user-component__updated">
+        <div class="user-component__updated-profile">
+          <img class="user-component__avatar--sm"
+            src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\chandler-icecream.jpg" class="user-component__avatar">
+          <div class="badge--sm"></div>
+          <h4 class="user-component__title--not-bold">Ross</h4>
+        </div>
+        <div class="user-component__updated-profile">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\chandler-icecream.jpg" class="user-component__avatar">
+          <div class="badge--sm"></div>  
+          <h4 class="user-component__title--not-bold">Monica</h4>
+        </div>
+        <div class="user-component__updated-profile">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\chandler-icecream.jpg" class="user-component__avatar">
+          <div class="badge--sm"></div>
+          <h4 class="user-component__title--not-bold">Rachel</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <span>Channel</span>
+        <i class="fa-solid fa-chevron-up fa-xs"></i>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\chandler-icecream.jpg" class="user-component__avatar">
+          <div class="user-component__text">
+            <h4 class="user-component__title--not-bold">Channel</h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div>
+            <span>9</span>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="friends-screen__friendslst">
+      <div class="friends-screen__friendslst-header">
+        <span>Friends</span>
+        <i class="fa-solid fa-chevron-up fa-xs"></i>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\chandler-icecream.jpg" class="user-component__avatar">
+          <div class="user-component__text">
+            <h4 class="user-component__title--not-bold">Chandler</h4>
+            <h6 class="user-component__subtitle">I make jokes when I'm uncomfortable.</h6>
+          </div>
+        </div>
+        <div class="user-component__music">
+          <span>Endless Love</span>
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\chandler-icecream.jpg" class="user-component__avatar">
+          <div class="user-component__text">
+            <h4 class="user-component__title--not-bold">Ross</h4>
+            <h6 class="user-component__subtitle">I'm Fine.</h6>
+          </div>
+        </div>
+        <div class="user-component__music">
+          <span>With or Without You - </span>
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\chandler-icecream.jpg" class="user-component__avatar">
+          <div class="user-component__text">
+            <h4 class="user-component__title--not-bold">Joey</h4>
+            <h6 class="user-component__subtitle">This is all a moo point.</h6>
+          </div>
+        </div>
+        <div class="user-component__music" id="joey__song">
+          <span>I Want a Duck</span>
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\pheobe.jpg" class="user-component__avatar">
+          <div class="user-component__text">
+            <h4 class="user-component__title--not-bold">Pheobe</h4>
+            <h6 class="user-component__subtitle">I don't have a pla.</h6>
+          </div>
+        </div>
+        <div class="user-component__music" id="pheobe__song">
+          <span>Smelly Cat</span>
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\janice.jpg" class="user-component__avatar">
+          <div class="user-component__text">
+            <h4 class="user-component__title--not-bold">Janice</h4>
+            <h6 class="user-component__subtitle">OH MY GOD</h6>
+          </div>
+        </div>
+        <div class="user-component__music">
+          <span>The Lady in Red - C..</span>
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar--sm"
+          src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\janice.jpg" class="user-component__avatar">
+          <div class="user-component__text">
+            <h4 class="user-component__title--not-bold">Monica</h4>
+            <h6 class="user-component__subtitle">Rules are good.</h6>
+          </div>
+        </div>
+        <div class="user-component__music">
+          <span>Trouble With Boys - </span>
+          <i class="fa-solid fa-play"></i>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="fa-solid fa-user fa-2x"></i></a>
+        </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">8</span>
+          <i class="fa-regular fa-comment fa-2x"></i></a>
+        </a>
+        </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <i class="fa-sharp fa-solid fa-magnifying-glass fa-2x"></i></a>
+        </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <div class="nav__"></div>
+          <i class="fa-solid fa-ellipsis fa-2x"></i>
+          <div class="badge--sm"></div></a>
+        </li>
+    </ul>
+  </nav>
+  <div id="splash-screen">
+    <img src="C:\Users\tuashim\Desktop\10주 챌린지\kokoa clone\images\friends-door-frame.png">
+  </div>
+<div id="no-mobile">
+  <span>Your screen is too big.</span>
+</div>
+  <script src="https://kit.fontawesome.com/21c592b869.js" crossorigin="anonymous"></script>
+</body>
+</html>

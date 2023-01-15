@@ -1,0 +1,19 @@
+.suggestions {
+  border-top: var(--gray);
+  margin-top: 50px;
+}
+.suggestions h4 {
+  margin-bottom: 30px;
+}
+.suggestions__options {
+  display: flex;
+}
+.suggestions__icon {
+  margin-right: 30px;
+}
+.suggestions__icon-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
