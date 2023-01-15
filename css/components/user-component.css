@@ -39,23 +39,19 @@
 .user-component__subtitle {
   margin-top: 10px;
   color: var(--gray);
-  font-size:17px;
+  font-size:10px;
 }
 .user-component__music {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 230px;
-  height: 30px;
+  width: 170px;
+  height: 24px;
   border-radius: 50px;
   border: 1px solid var(--yellow);
+  font-size: 12px;
 }
-#pheobe__song {
-  width: 150px;
-}
-#joey__song {
-  width: 200px;
-}
+
 .user-component__column:last-child {
   display: flex;
   flex-direction: column;
