@@ -8,6 +8,9 @@
     opacity: 1;
   }
 }
+* {
+  box-sizing: border-box;
+}
 .chat {
   margin-top: 100px;
   display: flex;
@@ -57,15 +60,14 @@
 }
 .message__author {
   font-size: 13px;
-  margin-bottom: 20px;
+  box-sizing: border-box;
   display: block;
-}
-.message__info {
-  display: flex;
-  align-items: flex-end;
+  margin-bottom: 10px;
 }
 .message-bubble {
   background-color: white;
+  box-sizing: border-box;
+  display: flex;
   padding: 10px;
   border-radius: 15px;
   border-top-left-radius: 0px;
@@ -81,12 +83,23 @@
   margin-right: 5px;
 }
 .message-time {
+  display: flex;
   font-size: 10px;
+  align-items: flex-end;
 }
 .i-send {
   justify-content: flex-end;
 }
 .i-send .message-bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0;
+  border-top-left-radius: 15px;
+  margin-right: 0;
+  margin-left: 5px;
+}
+.i-send .message-bubble--lg {
+  width: 200px;
+  display: flex;
   background-color: var(--yellow);
   border-top-right-radius: 0;
   border-top-left-radius: 15px;
