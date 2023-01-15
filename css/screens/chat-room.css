@@ -72,6 +72,7 @@
   font-size: 10px;
 }
 .i-send {
+  margin-top: 10px;
   justify-content: flex-end;
 }
 .i-send .message-bubble {
